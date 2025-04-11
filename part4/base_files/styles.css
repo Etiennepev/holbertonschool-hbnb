@@ -1,0 +1,235 @@
+/* 
+  This is a SAMPLE File to get you started. Follow the instructions on the project to complete the tasks. 
+  You'll probably need to override some of theese styles.
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e5e7e6;
+    color: #333;
+}
+
+header {
+    background-color: #720019;
+    color: #fff;
+    padding: 0.1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+.place-card,
+.review-card {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(124, 45, 45, 0.1);
+    text-align: center;
+    background-color: white;
+}
+
+#filter {
+    margin: 10px auto;
+    display: block;
+}  
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.place-card h3 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.place-card p {
+    margin-bottom: 20px;
+}
+
+.details-button {
+    padding: 6px 10px;
+    margin-bottom: 20px;
+    background-color: #720019;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    margin: 20px auto;
+    font-size: 28px;
+}
+
+h4 {
+    text-align: center;
+  }
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+#login-link {
+    margin-left: auto;
+}
+
+#login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: large;
+}
+
+#login-form input {
+    font-size: xx-large;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#login-form button {
+    font-size: x-large;
+    color: #720019;
+    background-color: #e5e7e6;
+    border-radius: 10px;
+    padding: 10px  20px;
+
+    border: 0px solid #ddd;
+
+}
+
+#login-form h2{
+    padding-bottom: 20px;
+}
+
+#place-details {
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    line-height: 0.4;
+}
+
+/* Place details */
+.place-info p {
+    margin: 10px 0;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 0;
+    text-align: center;
+}
+
+/* Review cards - Largeur presque complète, centrée */
+.review-card {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+    border: 1px solid #ddd;
+    line-height: 2;
+}
+
+#add-review h2 {
+    padding-bottom: 10px;
+}
+
+#filter {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+#filter label {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+
+textarea,
+button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  
+}
+
+/* Formulaire d'ajout de critique */
+.add-review form {
+    width: 100%;
+}
+
+.add-review textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#submit-review-button {
+    color: white;
+    background-color: #720019;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+  footer {
+    width: 100%;
+    background-color: #720019;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}

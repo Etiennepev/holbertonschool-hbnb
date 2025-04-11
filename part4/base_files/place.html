@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <img src="images/logo.png" alt="Logo du site" id="logo">
+            </a>
+            <a href="login.html" id="login-link">Login</a>
+        </nav>
+    </header>
+    <main>
+        <!-- Section Place Details -->
+        <h1>Beautiful Beach House</h1>
+        <section id="place-details">
+            <div class="place-info">
+                <p><strong>Host:</strong> John Doe</p>
+                <p><strong>Price per night:</strong> $150 per night</p>
+                <p><strong>Description:</strong> A beautiful place to stay with amazing amenities...</p>
+                <p><strong>Amenities:</strong> WiFi, Parking, Pool, etc.</p>
+            </div>
+        </section>
+        <!-- Section Reviews -->
+        <section id="reviews">
+            <h2>Reviews</h2>
+            <div class="review-card">
+                <p><strong>Jane Smith:</strong></p>
+                <p>Great place to stay!</p>
+                <p>Rating:<span class="stars">
+                    ★★★★☆
+                </span></p>
+            </div>
+            <div class="review-card">
+                <p><strong>Robert Brown:</strong></p>
+                <p>Amazing location and very comfortable.</p>
+                <p>Rating:<span class="stars">
+                    ★★★★★
+                </span></p>
+            </div>
+        </section>
+        <section id="add-review">
+        <form id="review-form">
+            <h2>Add a Review</h2>
+            <label for="review"><strong>Your Review:</strong></label>
+            <textarea id="review" name="review" required></textarea>
+            <label for="rating"><strong>Rating:</strong></label>
+            <select id="rating" name="rating" required>
+                <option value="1-star">1 Star</option>
+                <option value="2-star">2 Star</option>
+                <option value="3-star">3 Star</option>
+                <option value="4-star">4 Star</option>
+                <option value="5-star">5 Star</option>
+            </select>
+            <button type="submit" id="submit-review-button">Submit Review</button>
+        </form>
+    </section>
+    </main>
+    <script src="scripts.js"></script>
+    <footer>
+        <div>
+            <p>All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
